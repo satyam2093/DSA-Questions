@@ -1,6 +1,6 @@
 
 // 1.	Reverse a Linked List: The classic problem of reversing the direction of the links, typically in-place using iterative or recursive approaches.
-public class Problem1LinkedList {
+public class ProblemLinkedList1 {
     static class Node {
         int data;
         Node next;
@@ -58,7 +58,7 @@ public class Problem1LinkedList {
 
         
      public static void main(String[] args){
-        Problem1LinkedList sll = new Problem1LinkedList();
+        ProblemLinkedList1 sll = new ProblemLinkedList1();
         sll.insertAtEnd(18);
         sll.insertAtEnd(19);
         sll.insertAtEnd(25);
